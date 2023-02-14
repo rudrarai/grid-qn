@@ -1,0 +1,44 @@
+.parent1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-weight: 700;
+    
+}
+.li{
+    background-color: black;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: white;
+    margin: 50px;
+   
+}
+.child{
+    border: 3px solid black;
+    
+}
+.parenttop{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.parenttopleft{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parentbottom{
+    display: flex;
+    width: 303px;
+}
+.parenttopright{
+    display: flex;
+}
+.parentbottom img{
+    display: flex;
+    width: 503px;
+}
+
